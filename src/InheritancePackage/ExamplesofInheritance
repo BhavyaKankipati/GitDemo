@@ -1,0 +1,47 @@
+
+class X
+{
+
+}
+
+class Y
+{
+
+}
+
+class Z extends X,Y
+{
+
+}
+
+
+
+multiple inheritance is not supported by java but can be achieved using interfaces
+
+=======================================================================
+
+class A
+{
+  int i=10;
+  
+ }
+ class B extends A
+ {
+    int i=20;
+ }
+ 
+ public class MainClass
+ {
+ 	public static void main(String args[])
+ 	{
+ 	
+ 	  A a=new B();
+ 	  WebDriver driver=new ChromeDriver();
+ 	  ChromeDriver  internally getting properties of webdriver.
+ 	  System.out.println(a.i);//output=10 
+ 	  
+ 	  }
+ }
+ 	
+ 
+ 

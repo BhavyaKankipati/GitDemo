@@ -1,0 +1,54 @@
+
+
+Abstract Classes :
+
+Abstract method: methods does not have unimplemented methods
+Concrete method: methods having body
+
+we cannot instantiate abstract class, means cannot create object for abstract class. child classes are forced to implement abstract methods of parent class
+
+
+Interface :
+
+1.interface contains only abstract methods
+2.Access specifiers should be public
+
+3.variables defined must be public static,final
+4.To implement interface we must use "implements" keyword
+
+
+Abstract class:
+
+1.Abstract class contains abstract methods, concrete method or both
+2.Except private we can have any access specifier for methods in abstract classes
+3. Extends keyword is used to extending abstract class
+
+
+
+
+Page Object Pattern:
+
+->Easy to maintain
+->Easy Readability of scripts
+->Reduce or Eliminate duplicacy
+->Reusability of code
+->Reliability
+
+//Rediff.com
+
+Homepage--java class(Rediff Home page)--Objects of home page
+Loginpage---Java class(Loginpage)--Objects of Login page
+
+
+Testcase
+Driver.
+
+
+
+
+
+
+
+
+
+ 	
